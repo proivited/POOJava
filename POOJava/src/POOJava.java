@@ -9,6 +9,8 @@ public class POOJava {
 				675);
 		CuentaBancaria cuenta_secundaria = new CuentaBancaria("Sebastian elkks",
 				9875);
+		cuenta_secundaria.setSaldo(-1250);
+		System.out.println(cuenta_secundaria.getSaldo());
 		
 		/**
 		 * menu cajero
@@ -20,7 +22,7 @@ public class POOJava {
 		 * 6 salir
 		 */
 		
-		
+		/* comentado para un siguiente ejericico 
 		int opcion = 0;
 		
 		do {
@@ -66,7 +68,7 @@ public class POOJava {
 			
 		} while(opcion != 6); 
 			
-		
+		*/
 			
 		
 	}
